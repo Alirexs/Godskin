@@ -119,6 +119,12 @@ a {
   color: #fff;
 }
 
+.badge--click {
+  background-color: var(--color-primary);
+  height: fit-content;
+  color: #fff;
+}
+
 .badge--secondary {
   background: var(--color-secondary);
   color: #fff;
@@ -759,6 +765,16 @@ a {
   justify-items: center;
   max-width: 700px;
   margin: 0 auto;
+}
+
+.block-domain__links:hover {
+  cursor: pointer;
+}
+.block-domain__links {
+  transition: color 0.5s;
+}
+.block-li__selected {
+  
 }
 
 @media screen and (min-width: 768px) {
